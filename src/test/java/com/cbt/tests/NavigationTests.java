@@ -15,7 +15,7 @@ public class NavigationTests {
         WebDriver driver=BrowserFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.get("https://google.com");
-        String actualGoogle=driver.getTitle();
+        String actualGoogle =driver.getTitle();
 
         driver.navigate().to("https://etsy.com");
         String actualEtsy=driver.getTitle();
