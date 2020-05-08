@@ -38,5 +38,7 @@ public class TitleVerification {
 
         driver.quit();
 
+        System.out.println("Test");
+
     }
 }
